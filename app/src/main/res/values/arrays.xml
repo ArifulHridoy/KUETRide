@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="request_types">
+        <item>Route Change</item>
+        <item>Bus Change</item>
+        <item>Schedule Adjustment</item>
+        <item>Other</item>
+    </string-array>
+</resources>

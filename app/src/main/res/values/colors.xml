@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light Theme Colors -->
+    <color name="primary">#3949AB</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="secondary">#00796B</color>
+    <color name="background">#ECEFF1</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#B00020</color>
+    <color name="onSurface">#212121</color>
+    <color name="primaryLight">#C5CAE9</color>
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+
+    <!-- Common Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="success">#4CAF50</color>
+</resources>

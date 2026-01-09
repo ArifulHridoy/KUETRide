@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/applogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/applogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KUETRide">
+        <service
+            android:name="com.example.kuetride.firebase.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <activity
+            android:name="com.example.kuetride.activity.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.kuetride.activity.RegisterActivity"/>
+        <activity android:name="com.example.kuetride.activity.AdminDashboardActivity"/>
+        <activity android:name="com.example.kuetride.activity.StudentDashboardActivity"/>
+        <activity android:name="com.example.kuetride.activity.RouteManagementActivity"/>
+        <activity android:name="com.example.kuetride.activity.BusManagementActivity"/>
+        <activity android:name="com.example.kuetride.activity.ScheduleActivity"/>
+        <activity android:name="com.example.kuetride.activity.RequestsActivity"/>
+        <activity android:name="com.example.kuetride.activity.MessageActivity"/>
+        <activity android:name="com.example.kuetride.activity.ProfileActivity"/>
+        <activity android:name="com.example.kuetride.activity.RequestChangeActivity"/>
+        <activity android:name="com.example.kuetride.activity.AssignActivity"/>
+        <activity android:name="com.example.kuetride.activity.StudentManagementActivity"/>
+        <activity android:name="com.example.kuetride.activity.StudentDetailActivity"/>
+        <activity android:name="com.example.kuetride.activity.StudentEditProfileActivity"/>
+        <activity android:name="com.example.kuetride.activity.ScheduleGenerationActivity"/>
+    </application>
+
+</manifest>

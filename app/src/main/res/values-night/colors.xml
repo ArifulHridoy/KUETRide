@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark Theme Colors -->
+    <color name="primary">#7986CB</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="secondary">#26A69A</color>
+    <color name="background">#121212</color>
+    <color name="surface">#212121</color>
+    <color name="error">#CF6679</color>
+    <color name="onSurface">#FFFFFF</color>
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="textSecondary">#B0BEC5</color>
+</resources>

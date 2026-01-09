@@ -1,0 +1,36 @@
+
+{
+  "project_info": {
+    "project_number": "559372140438",
+    "firebase_url": "https://kuetride-b4b0f-default-rtdb.firebaseio.com",
+    "project_id": "kuetride-b4b0f",
+    "storage_bucket": "kuetride-b4b0f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:559372140438:android:5cc155aba3b48c3992a7b7",
+        "android_client_info": {
+          "package_name": "com.example.kuetride"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "YOUR_CLIENT_ID",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcOE4Cc0X8-d0ooaF2auMSwfb5Uxn1nD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
